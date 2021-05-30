@@ -1,7 +1,7 @@
 <?php
 include_once("e_sinhvien.php");
 include_once("DbContext.php");
-class M_SinhVien {
+class M_SinhVien{
     public function __construct() {
         $this->db = new DbContext();
     }
